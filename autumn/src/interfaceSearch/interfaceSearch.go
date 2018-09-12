@@ -49,7 +49,7 @@ func main() {
 	}
 	
 	/*
-		输出*person。
+		输出*person，这是接口指向的对象实例的类型。
 		但是如果去掉case *person的话，会输出options.IPeople。
 	*/
 	switch pp.(type){
